@@ -1,0 +1,32 @@
+.App{
+    border: 2px solid black;
+    margin: 2rem;
+    padding: 1rem;
+    background-color: beige;
+    display: flex;
+    flex-direction: column;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+    width: 50%;
+    margin: 0 auto;
+}
+
+.input, .button{
+    padding: .5rem .5rem;
+}
+
+.titulo, .error, .card{
+    margin: 1rem auto;
+}
+
+.card{
+    padding: .2rem;
+}
+
+.saludo{
+    text-decoration: underline;
+}
